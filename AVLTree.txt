@@ -1,0 +1,26 @@
+Properties:  
+Height-Balance Property: For every internal node v of T, the heights of the children of v can differ by at most 1 
+Is a binary search tree 
+Theorem: The height of an AVL tree T storing n items is O(log n) 
+Theorem: A binary search tree T is an AVL tree if every node in T is balanced. 
+ 
+Algorithm restructure(x): 
+0. Let a, b, and c be a left to right in order listing of x, y, and z.  
+1. Let T0, T1, T2, T3 be subtrees rooted at x, y, and z.  
+2. Replace the subtree rooted at z with a new subtree rooted at b.  
+3. Now a is the left child of b, T0 and T1 are the left and right subtrees of a. Node c is the right child of b, and T2 and T3 are the left and right subtrees of c 
+ 
+AVL Tree: Insert/ Delete/ Find is in O(logn) 
+
+Insertion: insert as in binary search tree.  
+Take the middle value and make it the new root, take the top value and make it the right node. One restructuring operation balances the tree 
+
+Deletion: can take up to Logn restructure 
+http://www.geeksforgeeks.org/avl-tree-set-2-deletion
+1) Perform standard BST delete for w.
+2) Starting from w, travel up and find the first unbalanced node. Let z be the first unbalanced node, y be the larger height child of z, and x be the larger height child of y. Note that the definitions of x and y are different from insertion here.
+3) Re-balance the tree by performing appropriate rotations on the subtree rooted with z. There can be 4 possible cases that needs to be handled as x, y and z can be arranged in 4 ways. Following are the possible 4 arrangements:
+a) y is left child of z and x is left child of y (Left Left Case)
+b) y is left child of z and x is right child of y (Left Right Case)
+c) y is right child of z and x is right child of y (Right Right Case)
+d) y is right child of z and x is left child of y (Right Left Case)

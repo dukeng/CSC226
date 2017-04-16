@@ -1,0 +1,13 @@
+Proving Lower Bound for Sorting Algorithm:
+
+A decision tree is a full binary tree that represents the comparisons performed using an algorithm between the given inputs
+
+Let x be the number of maximum comparisons performed in a sorting algorithm. The maximum height of the decision tree would then be x
+
+For any sequence number of n numbers, there are n! number of permutation that the sequence can be formed. Therefore, the number of leaves of the full binary tree must be n!
+
+Using height property of a full binary tree:
+n! <= 2^x
+log(n!) <= x ( log both sides)
+Since log(n!) = O(nlogn)
+	  x = Omega(nLogn)
