@@ -1,6 +1,6 @@
-Lecture 1 - Lower bounds for sorting: Proving lower bounds for sorting and other problems using the decision tree method.
+Lecture 1 - Lower bounds for sorting: Proving lower bounds for sorting and other problems using the decision tree method.(Done)
 
-Lecture 2 - Algorithms for selection: QuickSelect and LinearSelect algorithms.
+Lecture 2 - Algorithms for selection: QuickSelect and LinearSelect algorithms.(Done)
 
 Lecture 3 - Randomized algorithms: Randomized QuickSort and Randomized QuickSelect.; basics of probability theory from the posted notes.
 
@@ -12,7 +12,7 @@ Lecture 7 - Hashing: Running time analysis for hashing using chaining and open-a
 
 Lectures 8, 9 -  Minimum Spanning Trees: cut property; Prim's algorithm (lazy and eager version) and Kruskal's algorithm;  their proof of correctness of these algorithms using the cut property.
 
-Lecture 10 - Union-Find: Quick-Find, Quick-Union, and Weighted Quick-Union algorithms.
+(Done)Lecture 10 - Union-Find: Quick-Find, Quick-Union, and Weighted Quick-Union algorithms.
 
 Lectures 12,13 - Shortest Paths: Dijkstra's algorithm and Bellman-Ford algorithm for single source shortest paths, their proof of correctness; Floyd-Warshall algorithm for all pairs shortest path; Algorithm for shortest paths in DAGs and its proof of correctness.
 
