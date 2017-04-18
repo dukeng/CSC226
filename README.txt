@@ -14,7 +14,8 @@ Lectures 8, 9 -  Minimum Spanning Trees: cut property; Prim's algorithm (lazy an
 
 (Done)Lecture 10 - Union-Find: Quick-Find, Quick-Union, and Weighted Quick-Union algorithms.
 
-Lectures 12,13 - Shortest Paths: Dijkstra's algorithm and Bellman-Ford algorithm for single source shortest paths, their proof of correctness; Floyd-Warshall algorithm for all pairs shortest path; Algorithm for shortest paths in DAGs and its proof of correctness.
+Lectures 12,13 - Shortest Paths: Dijkstra's algorithm and Bellman-Ford algorithm for single source shortest paths, their proof of correctness; Floyd-Warshall algorithm for all pairs shortest path; 
+Algorithm for shortest paths in DAGs and its proof of correctness.
 
 Lectures 15,16 - Maximum Flow: max-flow and min-cut problem; Ford-Fulkerson algorithm; its proof of correctness using the max-flow min-cut theorem.
 
@@ -25,3 +26,10 @@ Lecture 19 - Reductions: examples of reductions from the sorting problem, shorte
 Lectures 20,21 - Greedy algorithms: examples of greedy algorithms for coin changing, interval scheduling and interval partitioning; Huffman encoding algorithm using greedy technique.
 
 Lectures 22,23 - Dynamic Programming: examples of dynamic programming algorithms for weighted interval scheduling and knapsack problem;  algorithm for longest common subsequence using DP.
+
+
+
+Shortest Paths in directed acyclic
+graphs
+! Can we do faster than Bellman-Ford?
+! Great final exam question 
