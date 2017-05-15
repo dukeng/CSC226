@@ -19,17 +19,19 @@ Algorithm for shortest paths in DAGs and its proof of correctness.
 
 Lectures 15,16 - Maximum Flow: max-flow and min-cut problem; Ford-Fulkerson algorithm; its proof of correctness using the max-flow min-cut theorem.
 
-Lectures 17,18 - Substring search: KMP algorithm; Boyer-Moore algorithm; Rabin-Karp algorithm.
+(Done) Lectures 17,18 - Substring search: KMP algorithm; Boyer-Moore algorithm; Rabin-Karp algorithm.
 
 Lecture 19 - Reductions: examples of reductions from the sorting problem, shortest paths problem and max-flow problem. (See page 903 of the textbook.)
 
 Lectures 20,21 - Greedy algorithms: examples of greedy algorithms for coin changing, interval scheduling and interval partitioning; Huffman encoding algorithm using greedy technique.
+-> Minimizing lateness?
 
 Lectures 22,23 - Dynamic Programming: examples of dynamic programming algorithms for weighted interval scheduling and knapsack problem;  algorithm for longest common subsequence using DP.
-
 
 
 Shortest Paths in directed acyclic
 graphs
 ! Can we do faster than Bellman-Ford?
 ! Great final exam question 
+
+BFS uses a queue, DFS uses a stacks
